@@ -9,8 +9,8 @@
 
 ### Developers
 
-- Vikrant Gajria [vixrant](https://www.vikrantgajria.me)
-- Siddharth Sanghavi [siddinc](https://siddinc.github.io)
+- *Vikrant Gajria* [vixrant](https://www.vikrantgajria.me)
+- *Siddharth Sanghavi* [siddinc](https://siddinc.github.io)
 
 ### Tech Stack
 
@@ -37,6 +37,14 @@
 - Fill in the details in `.env` file, given the keys in `sample.env`.
 - `npm i` or `yarn`
 - `npm start` or `yarn start`
+
+### Screenshots
+
+![dashboard](/docs/img/map.png)
+*Map*
+
+![shop](/docs/img/shop.png)
+*Shop info*
 
 ### License
 
