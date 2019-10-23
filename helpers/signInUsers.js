@@ -53,6 +53,6 @@ module.exports = async (req, res, next) => {
   const token = await createJWT({ id: result[0].id, email: reqBody.email });
   return res.status(200).send({
     message: "Signed in successfully",
-    data: { token },
+    data: { token, id: result[0].id, name: result[0].name },
   });
 };

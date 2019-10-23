@@ -237,7 +237,6 @@ UNLOCK TABLES;
 /*!50001 SET character_set_results     = utf8 */;
 /*!50001 SET collation_connection      = utf8_general_ci */;
 /*!50001 CREATE ALGORITHM=UNDEFINED */
-/*!50013 DEFINER=`wilson`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `customers` AS (select `users`.`id` AS `id`,`users`.`name` AS `name`,`users`.`password` AS `password`,`users`.`email` AS `email` from `users` where (not(`users`.`id` in (select `shops`.`user_id` from `shops`)))) */;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;

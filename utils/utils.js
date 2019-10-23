@@ -17,7 +17,7 @@ exports.generateRandomUUID = () => {
 };
 
 exports.createJWT = async obj => {
-  return JWT.sign(obj, secret, { expiresIn: 86400 * 15 });
+  return JWT.sign(obj, secret, { expiresIn: 864000 * 15 });
 };
 
 exports.verifyJWT = async token => {

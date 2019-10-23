@@ -53,6 +53,6 @@ module.exports = async (req, res, next) => {
   return res.status(200).send({
     status: res.statusCode,
     message: "Signed up successfully",
-    data: { token }
+    data: { token, id: result[0].id, name: result[0].name }
   });
 };

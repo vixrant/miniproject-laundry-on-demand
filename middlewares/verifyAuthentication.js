@@ -2,6 +2,9 @@ const knexClient = require('../config/knex');
 const { verifyJWT, extractJWT } = require('../utils/utils');
 
 module.exports = async (req, res, next) => {
+  res.locals.user = null;
+  return next();
+
   const token = extractJWT(req);
 
   if(!token) {
